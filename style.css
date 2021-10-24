@@ -86,3 +86,40 @@ ul {
 
   justify-content: center;
 }
+
+@media (min-width: 720px) {
+  body {
+    background-color: #121214;
+    background-image: url(images/background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  main {
+    width: 358px;
+    height: 541px;
+    min-height: 600px;
+    margin: auto;
+    color: var(--grey-white);
+    background: url(images/background.svg) no-repeat center/cover;
+  }
+  .container {
+    margin-top: -8rem;
+  }
+  .keychain {
+    background: url(images/faixa.svg);
+    width: 90px;
+    height: 740px;
+    position: absolute;
+    margin-top: -45rem;
+    margin-left: 8.9rem;
+    z-index: 2;
+  }
+  .hole {
+    position: absolute;
+    background: url(images/quebra.svg);
+    width: 100px;
+    height: 8px;
+    margin-top: 18px;
+    margin-left: 137px;
+  }
+}
